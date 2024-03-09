@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-white">
+    <div class="flex sm:flex-row flex-col-reverse p-6 sm:p-8 gap-7 sm:gap-8 place-items-center">
+
+        <div class="basis-3/4 sm:basis-1/2 flex-1">
+            <div class="flex flex-col gap-6 sm:gap-12 w-full sm:w-[340px] mx-auto h-auto">
+                <div class="flex flex-col gap-4 sm:gap-7">
+                    <p class="text-2xl sm:text-4xl font-medium">Welcome back 👋</p>
+                    <div>
+                        <p class="text-base sm:text-lg font-reguler">Today is a new day.It's your day. You shape it.</p>
+                        <p class="text-base sm:text-lg font-reguler">Sign in to start managing your projects.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:gap-6 ">
+                    <div>
+                        <label for="email"
+                            class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Email</label>
+                        <input type="email" id="email"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="example@example.com" required />
+                    </div>
+                    <div>
+                        <label for="password"
+                            class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Password</label>
+                        <input type="password" id="password"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="•••••••••" required />
+                    </div>
+                    <a href="#">
+                        <p class="text-base font-medium text-end text-blue-600">Forgot Password?</p>
+                    </a>
+                    <button type="button"
+                        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-xl text-lg w-full px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Sign
+                        In</button>
+                </div>
+                <div>
+                    <p class="text-center">Don't you have an account? <span class="text-blue-600"><a href="">Sign
+                                Up</a></span></p>
+                </div>
+                <div class="mt-20">
+                    <p class="text-center text-sm font-light text-gray-400">© 2023 ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="basis-1/4 sm:basis-1/2">
+            <img class="rounded-3xl object-cover h-48 sm:h-auto w-96 sm:w-auto" src="assets/Login Art.png"
+                alt="art image">
+        </div>
+
+    </div>
+</body>
+
+</html>

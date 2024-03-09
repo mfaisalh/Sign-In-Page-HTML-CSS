@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "SF Pro Medium";
+  src: url("font/SFPRODISPLAYMEDIUM.OTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-medium {
+  font-family: "SF Pro Medium";
+}
+
+@font-face {
+  font-family: "SF Pro Reguler";
+  src: url("font/SFPRODISPLAYREGULAR.OTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-reguler {
+  font-family: "SF Pro Reguler";
+}
